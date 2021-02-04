@@ -1,5 +1,7 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon,MDBView,MDBMask } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
+     MDBNavItem, MDBNavLink, MDBIcon,MDBView,MDBMask,MDBContainer,
+     MDBFooter,MDBRow,MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
@@ -113,6 +115,106 @@ class Navbar extends React.Component {
           
           </Carousel>
         </header>
+
+        {/*featured items*/}
+        <main>
+        <div>
+            <h1>Featured</h1>
+            <p>Your favourite swahili dishes</p>
+        </div>
+        <div className="container">
+        <div className="row">
+            <div className="col-md-6">
+                <div className="photos">
+                    <img src="../images/a.jpg" />
+                </div>
+            </div>
+            <div className="col-md-6">
+                <div className="photos">
+                    <img src="../images/b.jpg" />
+                </div>
+            </div>
+        </div>
+        </div>
+        <div className="container">
+        <div className="row">
+            <div className="col-md-6">
+                <div className="photos">
+                    <img src="../images/a.jpg" />
+                </div>
+            </div>
+            <div className="col-md-6">
+                <div className="photos">
+                    <img src="../images/b.jpg" />
+                </div>
+            </div>
+        </div>
+        </div>
+
+        </main>
+
+
+        <MDBFooter color="blue" className="font-small pt-4 mt-4">
+      <MDBContainer fluid className="text-center text-md-left">
+        <MDBRow>
+          <MDBCol md="3">
+          <h5 className="title">Favourites</h5>
+            <ul>
+              <li className="list-unstyled">
+                <a href="#!">Gift cards</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Vouchers</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Newsletters</a>
+              </li>
+            </ul>
+          </MDBCol>
+          <MDBCol md="3">
+            <h5 className="title">How to Order</h5>
+            <ul>
+              <li className="list-unstyled">
+                <a href="#!">Order Online</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Find a location</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Call</a>
+              </li>
+            </ul>
+          </MDBCol>
+          <MDBCol md="3">
+            <h5 className="title">Customer Services</h5>
+            <ul>
+              <li className="list-unstyled">
+                <a href="#!">Terms and Conditions</a>
+              </li>
+            </ul>
+          </MDBCol>
+          <MDBCol md="3">
+            <h5 className="title">Connect with us</h5>
+            <ul>
+              <li className="list-unstyled">
+                <a href="#!">Customer care services</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">call 0713201600</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Sign up</a>
+              </li>
+            </ul>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+      <div className="footer-copyright text-center py-3">
+        <MDBContainer fluid>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+        </MDBContainer>
+      </div>
+    </MDBFooter>
       </div>
     );
   }
