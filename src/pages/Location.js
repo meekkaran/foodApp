@@ -121,7 +121,7 @@ class Location extends React.Component {
 
        <map>
            <div className="map">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82913625595!2d36.82173821380427!3d-1.2758763990693995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17580b384c2b%3A0xa4f730f871182055!2sZarda%20Caf%C3%A9!5e0!3m2!1sen!2ske!4v1612627249048!5m2!1sen!2ske" width="600" height="450" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.658272511919!2d36.819549531248065!3d-1.2758763990693869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17580b384c2b%3A0xa4f730f871182055!2sZarda%20Caf%C3%A9!5e0!3m2!1sen!2ske!4v1612632747180!5m2!1sen!2ske" width="1575" height="600" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
            
            </div>
        </map>
