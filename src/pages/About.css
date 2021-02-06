@@ -1,0 +1,19 @@
+.topbar{
+    font-size: 25px;
+}    
+
+
+
+/*about*/
+.about{
+    padding:20px;
+    background-color: #8DB6CD;
+}
+.about h1{
+    font-size: 30px;
+    text-align: center;
+}
+.about p{
+    font-size: 20px;
+    text-align: center;
+}

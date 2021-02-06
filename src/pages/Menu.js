@@ -4,10 +4,8 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
      MDBFooter,MDBRow,MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
-import {Animated} from "react-animated-css";
-import './style.css';
 
-class Navbar extends React.Component {
+class Menu extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
@@ -23,10 +21,11 @@ class Navbar extends React.Component {
   }
 
   render() {
-    const bgPink = {backgroundColor: '#4682B4'}
+    const bgPink = {backgroundColor: ' #0E3386'}
     return(
       <div>
         <header>
+            <div className="topbar">
           <Router>
             <MDBNavbar style={bgPink} dark expand="md" scrolling fixed="top">
               <MDBNavbarBrand href="/">
@@ -36,22 +35,22 @@ class Navbar extends React.Component {
               <MDBCollapse isOpen = { this.state.collapse } navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                      <MDBNavLink to="#">Home</MDBNavLink>
+                      <MDBNavLink className="link" to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink to="#">Order</MDBNavLink>
+                      <MDBNavLink className="link" to="/Menu">Order</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink to="#">Menu</MDBNavLink>
+                      <MDBNavLink className="link" to="#">Menu</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">About</MDBNavLink>
+                    <MDBNavLink className="link" to="/About">About</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Location</MDBNavLink>
+                    <MDBNavLink className="link" to="#">Location</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Contact</MDBNavLink>
+                    <MDBNavLink className="link" to="#">Contact</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
@@ -68,93 +67,61 @@ class Navbar extends React.Component {
               </MDBCollapse>
             </MDBNavbar>
           </Router>
+          </div>
 
           <Carousel>
           
 
           <Carousel.Item interval={3000}>
-          <MDBView src="../Images/beef.jpg">
+          <MDBView src="../Images/1.jpg">
             <MDBMask overlay="blue-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
-              <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
-              </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
           
           <Carousel.Item interval={3000}>
-          <MDBView src="../Images/fish.jpg">
+          <MDBView src="../Images/meat.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
-              <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE</h2>
-              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
-              </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
           <Carousel.Item interval={3000}>
-          <MDBView src="../Images/bhajia.jpg">
+          <MDBView src="../Images/2.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
-              <h2 className="head1" style={{fontSize:'70px'}} >ZARDA CAFE </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 className="head5"  style={{overflowY:'hidden'}}>BON .appetit.,
-              </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
-         
-          
           </Carousel>
         </header>
+           
 
-        {/*featured items*/}
-        <main>
-        <div>
-            <h1>Featured</h1>
-            <p>Your favourite swahili dishes</p>
+
+           {/*main */}
+           <main>
+           <div>
+            <h1>OUR MENU</h1>
         </div>
         <div className="container">
         <div className="row">
             <div className="col-md-6">
                 <div className="photos">
                     <img src="../images/a.jpg" />
+                    <button>IN STORE MENU</button>
                 </div>
             </div>
             <div className="col-md-6">
                 <div className="photos">
                     <img src="../images/b.jpg" />
+                    <button>ORDER FOR DELIVERY</button>
                 </div>
             </div>
         </div>
         </div>
-        <div className="container">
-        <div className="row">
-            <div className="col-md-6">
-                <div className="photos">
-                    <img src="../images/a.jpg" />
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="photos">
-                    <img src="../images/b.jpg" />
-                </div>
-            </div>
-        </div>
-        </div>
-
-        </main>
+           </main>
 
 
-        <MDBFooter color="blue" className="font-small pt-4 mt-4">
+  {/*foter*/}
+        <footer>
+        <MDBFooter color="" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="3">
@@ -209,15 +176,19 @@ class Navbar extends React.Component {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <div className="footer-copyright text-center py-3">
+      <div className="copyright">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> ZardaCafee.com@2021</a>
         </MDBContainer>
       </div>
     </MDBFooter>
+    </footer>
+
+
       </div>
     );
   }
 }
 
-export default Navbar;
+export default Menu;
+

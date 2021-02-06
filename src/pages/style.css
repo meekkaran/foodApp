@@ -1,0 +1,53 @@
+.link{
+    color:#318CE7;
+}.topbar{
+    font-size: 25px;
+}.head1{
+    color:#8DB6CD;
+    font-weight: bold;
+}
+.head2{
+    color:#000;
+}
+.head5{
+    font-weight: bold;
+}
+.p{
+    color:#000;
+    font-size: 40px;
+}
+/*main content */
+.container{
+    margin:10px;
+}
+.container img{
+    width:100%;
+    padding:10px 0;
+    transition:1s;
+    cursor:pointer;
+}
+
+
+/*foooter*/
+footer{
+    background-color: #0E3386;
+}
+footer h5{
+    font-size: 25px;
+    text-align: center;
+    color:#318CE7;
+    padding:12px;
+}
+footer ul{
+    text-align: center;
+    font-size: 20px;
+    color:#318CE7;
+    
+}
+footer  ul  li {
+    color:#318CE7;
+    padding: 8px;
+}
+.copyright{
+    font-size: 20px;
+}
