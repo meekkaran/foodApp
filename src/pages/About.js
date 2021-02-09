@@ -4,6 +4,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
      MDBFooter,MDBRow,MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
+import {Animated} from "react-animated-css";
 import './About.css';
 
 class Home extends React.Component {
@@ -69,6 +70,8 @@ class Home extends React.Component {
             </MDBNavbar>
           </Router>
           </div>
+  
+
 
           <Carousel>
           
@@ -76,22 +79,46 @@ class Home extends React.Component {
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/1.jpg">
             <MDBMask overlay="blue-light" className="flex-center flex-column text-white text-center">
+            <Animated animationIn="bounceInRight">
+              <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE </h2>
+              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
+              </h5></Animated>
+              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
           
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/meat.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+            <Animated animationIn="bounceInRight">
+              <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE</h2>
+              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
+              </h5></Animated>
+              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/2.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+            <Animated animationIn="bounceInRight">
+              <h2 className="head1" style={{fontSize:'70px'}} >ZARDA CAFE </h2>
+              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5 className="head5"  style={{overflowY:'hidden'}}>BON .appetit.,
+              </h5></Animated>
+              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
+         
+          
           </Carousel>
+
         </header>
          <div className="about">
              <h1>WE OFFER</h1>

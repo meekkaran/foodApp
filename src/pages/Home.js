@@ -40,19 +40,19 @@ class Home extends React.Component {
                       <MDBNavLink className="link" to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="/Menu">Order</MDBNavLink>
+                      <MDBNavLink className="link" to="/About">About</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="#">Menu</MDBNavLink>
+                      <MDBNavLink className="link" to="/Menu">Menu</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="/About">About</MDBNavLink>
+                    <MDBNavLink className="link" to="/Order">Order</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="#">Location</MDBNavLink>
+                    <MDBNavLink className="link" to="/Location">Location</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="#">Contact</MDBNavLink>
+                    <MDBNavLink className="link" to="/Contact">Contact</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
@@ -77,7 +77,7 @@ class Home extends React.Component {
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/beef.jpg">
             <MDBMask overlay="blue-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
+            <Animated animationIn="bounceInRight">
               <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE </h2>
               <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
               <Animated animationIn="bounceInLeft">
@@ -90,7 +90,7 @@ class Home extends React.Component {
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/fish.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
+            <Animated animationIn="bounceInRight">
               <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE</h2>
               <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
               <Animated animationIn="bounceInLeft">
@@ -103,7 +103,7 @@ class Home extends React.Component {
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/bhajia.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig">
+            <Animated animationIn="bounceInRight">
               <h2 className="head1" style={{fontSize:'70px'}} >ZARDA CAFE </h2>
               <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
               <Animated animationIn="bounceInLeft">
@@ -127,14 +127,10 @@ class Home extends React.Component {
         <div className="container">
         <div className="row">
             <div className="col-md-6">
-                <div className="photos">
-                    <img src="../images/a.jpg" />
-                </div>
+                <img src="../images/a.jpg" />
             </div>
             <div className="col-md-6">
-                <div className="photos">
-                    <img src="../images/b.jpg" />
-                </div>
+                <img src="../images/b.jpg" />
             </div>
         </div>
         </div>
