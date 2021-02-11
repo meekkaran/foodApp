@@ -3,7 +3,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
      MDBNavItem, MDBNavLink, MDBIcon,MDBView,MDBMask,MDBContainer,
      MDBFooter,MDBRow,MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
-import {Carousel} from 'react-bootstrap';
+import {Carousel, Nav} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import './About.css';
 
@@ -40,19 +40,19 @@ class Home extends React.Component {
                       <MDBNavLink className="link" to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="/Menu">Order</MDBNavLink>
+                  <Nav.Link href="/About">About </Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="#">Menu</MDBNavLink>
+                  <Nav.Link href="/Menu">Menu</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="/About">About</MDBNavLink>
+                  <Nav.Link href="/Order">Order</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="#">Location</MDBNavLink>
+                  <Nav.Link href="/Menu">Location</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="#">Contact</MDBNavLink>
+                  <Nav.Link href="/Contact">Contact</Nav.Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>

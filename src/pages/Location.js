@@ -3,7 +3,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
      MDBNavItem, MDBNavLink, MDBIcon,MDBView,MDBMask,MDBContainer,
      MDBFooter,MDBRow,MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
-import {Carousel} from 'react-bootstrap';
+import {Carousel, Nav} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import './Location.css';
 
@@ -40,19 +40,19 @@ class Location extends React.Component {
                       <MDBNavLink className="link" to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="/Menu">Order</MDBNavLink>
+                  <Nav.Link href="/About">About </Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="#">Menu</MDBNavLink>
+                  <Nav.Link href="/Menu">Menu</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="/About">About</MDBNavLink>
+                  <Nav.Link href="/Order">Order</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="#">Location</MDBNavLink>
+                  <Nav.Link href="/Menu">Location</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="#">Contact</MDBNavLink>
+                  <Nav.Link href="/Contact">Contact</Nav.Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
@@ -123,7 +123,7 @@ class Location extends React.Component {
 
        <map>
            <div className="map">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.658272511919!2d36.819549531248065!3d-1.2758763990693869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17580b384c2b%3A0xa4f730f871182055!2sZarda%20Caf%C3%A9!5e0!3m2!1sen!2ske!4v1612632747180!5m2!1sen!2ske" width="1575" height="600" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+           <iframe title="Find Us " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.658272511919!2d36.819549531248065!3d-1.2758763990693869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17580b384c2b%3A0xa4f730f871182055!2sZarda%20Caf%C3%A9!5e0!3m2!1sen!2ske!4v1612632747180!5m2!1sen!2ske" width="1575" height="600" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
            
            </div>
        </map>

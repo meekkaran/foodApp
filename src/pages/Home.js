@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
      MDBNavItem, MDBNavLink, MDBIcon,MDBView,MDBMask,MDBContainer,
      MDBFooter,MDBRow,MDBCol } from 'mdbreact';
+import {Nav} from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
@@ -40,19 +41,19 @@ class Home extends React.Component {
                       <MDBNavLink className="link" to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="/About">About</MDBNavLink>
+                  <Nav.Link href="/About">About </Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink className="link" to="/Menu">Menu</MDBNavLink>
+                  <Nav.Link href="/Menu">Menu</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="/Order">Order</MDBNavLink>
+                  <Nav.Link href="/Order">Order</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="/Location">Location</MDBNavLink>
+                  <Nav.Link href="/Menu">Location</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="link" to="/Contact">Contact</MDBNavLink>
+                  <Nav.Link href="/Contact">Contact</Nav.Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
@@ -127,10 +128,10 @@ class Home extends React.Component {
         <div className="container">
         <div className="row">
             <div className="col-md-6">
-                <img src="../images/a.jpg" />
+                <img src="../images/a.jpg" alt="home" />
             </div>
             <div className="col-md-6">
-                <img src="../images/b.jpg" />
+                <img src="../images/b.jpg" alt="home"/>
             </div>
         </div>
         </div>
