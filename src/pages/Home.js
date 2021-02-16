@@ -125,18 +125,87 @@ class Home extends React.Component {
             <h1>Featured</h1>
             <p>Your favourite swahili dishes</p>
         </div>
-        <div className="container">
-        <div className="row">
-            <div className="col-md-6">
+        <div className="featured">
+            <div className="pichaz">
                 <img src="../images/a.jpg" alt="home" />
             </div>
-            <div className="col-md-6">
+            <div className="pichaz">
                 <img src="../images/b.jpg" alt="home"/>
             </div>
         </div>
-        </div>
-
         </main>
+
+        {/* second last */}
+
+        <Carousel>
+        <Carousel.Item interval={2000}>
+        <div className="secondlast">
+          <div className="row">
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/bhajia.jpg" style={{width:'100%'}} />
+            </Animated>
+            </div>
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/fish.jpg" style={{width:'100%'}} />
+            </Animated>
+            </div>
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/beef.jpg" style={{width:'100%'}} />
+            </Animated>
+          </div>
+        </div>
+        </div>
+        </Carousel.Item>
+
+        <Carousel.Item interval={2000}>
+        <div className="secondlast">
+          <div className="row">
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/bhajia.jpg" style={{width:'100%'}} />
+            </Animated>
+            </div>
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/fish.jpg" style={{width:'100%'}} />
+            </Animated>
+            </div>
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/beef.jpg" style={{width:'100%'}} />
+            </Animated>
+          </div>
+        </div>
+        </div>
+        </Carousel.Item>
+
+        <Carousel.Item interval={2000}>
+        <div className="secondlast">
+          <div className="row">
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/bhajia.jpg" style={{width:'100%'}} />
+            </Animated>
+            </div>
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/fish.jpg" style={{width:'100%'}} />
+            </Animated>
+            </div>
+            <div className="column">
+            <Animated animationIn="bounceInRight">
+            <img src="../images/beef.jpg" style={{width:'100%'}} />
+            </Animated>
+          </div>
+        </div>
+        </div>
+        </Carousel.Item>
+
+        </Carousel>
+        
   
   {/*foter*/}
         <footer>

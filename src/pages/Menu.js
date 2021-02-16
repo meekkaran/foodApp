@@ -48,7 +48,7 @@ class Menu extends React.Component {
                   <Nav.Link href="/Order">Order</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                  <Nav.Link href="/Menu">Location</Nav.Link>
+                  <Nav.Link href="/Location">Location</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
                   <Nav.Link href="/Contact">Contact</Nav.Link>
