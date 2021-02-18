@@ -31,8 +31,9 @@ form {
   justify-content: center;
 }
 
-form > h1 {
-  margin-bottom: 30px;
+form > h2{
+  margin-bottom: 0px;
+  padding-top: 30px;
 }
 
 form > input,

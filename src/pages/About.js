@@ -85,7 +85,6 @@ class Home extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
           
@@ -98,7 +97,6 @@ class Home extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
@@ -111,7 +109,6 @@ class Home extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5"  style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
@@ -167,10 +164,10 @@ class Home extends React.Component {
                 <a href="#!">Order Online</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Find a location</a>
+                <a href="#">Find a location</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Call</a>
+                <a href="#!">Call 0713201600</a>
               </li>
             </ul>
           </MDBCol>
@@ -186,7 +183,7 @@ class Home extends React.Component {
             <h5 className="title">Connect with us</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Customer care services</a>
+                <a href="#!">customercare@zardacaffe.co.ke</a>
               </li>
               <li className="list-unstyled">
                 <a href="#!">call 0713201600</a>

@@ -75,8 +75,6 @@ class Contact extends React.Component {
 
         {/*contact page*/}
         <div className="app">
-            <h1 className="h1">CONTACT US</h1>
-            <p>For Your Favourite Swahili Dishes</p>
             <form>
                 <h2>Say something...</h2>
 

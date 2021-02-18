@@ -5,6 +5,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Carousel, Nav} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
+import "./menu.css";
 
 class Menu extends React.Component {
   constructor(props) {
@@ -84,7 +85,6 @@ class Menu extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
           
@@ -97,7 +97,6 @@ class Menu extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
@@ -110,7 +109,6 @@ class Menu extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5"  style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
@@ -123,24 +121,25 @@ class Menu extends React.Component {
 
            {/*main */}
            <main>
-           <div>
+           <div className="title">
             <h1>OUR MENU</h1>
+            <p>Your Swahili Delight</p>
         </div>
-        <div className="container">
-        <div className="row">
-            <div className="col-md-6">
-                <div className="photos">
-                    <img src="../images/a.jpg" alt="menu"/>
-                    <button>IN STORE MENU</button>
-                </div>
+        
+     
+        <div className="menu">
+            <div className="images">
+                <img src="../images/a.jpg" alt="home" />
+                <p>Zarda cafe prepares delicious varieties of fresh 
+                  swahili foods using highest quality ingredients.</p>
+                <button className="button1">IN STORE MENU</button>
             </div>
-            <div className="col-md-6">
-                <div className="photos">
-                    <img src="../images/b.jpg" alt="desc" />
-                    <button>ORDER FOR DELIVERY</button>
-                </div>
+            <div className="images">
+                <img src="../images/b.jpg" alt="home"/>
+                <p>Order in from  delivery menu and enjoy happiness at
+                   home - swahili food made delicious and delivered fast.</p>
+                <button className="button2">ORDER ONLINE</button>
             </div>
-        </div>
         </div>
            </main>
 

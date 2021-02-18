@@ -85,7 +85,6 @@ class Location extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
           
@@ -98,7 +97,6 @@ class Location extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
@@ -111,7 +109,6 @@ class Location extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 className="head5"  style={{overflowY:'hidden'}}>BON .appetit.,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
             </MDBMask>
           </MDBView></Carousel.Item>
 
