@@ -17,6 +17,26 @@
     font-size: 40px;
     text-align: center;
 }
+.button{
+    padding:10px 22px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: steelblue;
+    
+}
+.button a{
+    text-decoration: none;
+    color:#fff;
+}
+.button:hover{
+    background-color: skyblue;
+}
+
+
+.twitter{
+    width:200px;
+    height:200px;
+}
 /*main content */
 .main{
     text-align: center;

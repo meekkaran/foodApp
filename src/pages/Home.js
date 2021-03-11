@@ -76,7 +76,7 @@ class Home extends React.Component {
           
 
           <Carousel.Item interval={3000}>
-          <MDBView src="../Images/beef.jpg">
+          <MDBView src="../images/beef.jpg">
             <MDBMask overlay="blue-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="bounceInRight">
               <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE </h2>
@@ -89,7 +89,7 @@ class Home extends React.Component {
           </MDBView></Carousel.Item>
           
           <Carousel.Item interval={3000}>
-          <MDBView src="../Images/fish.jpg">
+          <MDBView src="../images/fish.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="bounceInRight">
               <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE</h2>
@@ -102,7 +102,7 @@ class Home extends React.Component {
           </MDBView></Carousel.Item>
 
           <Carousel.Item interval={3000}>
-          <MDBView src="../Images/bhajia.jpg">
+          <MDBView src="../images/bhajia.jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="bounceInRight">
               <h2 className="head1" style={{fontSize:'70px'}} >ZARDA CAFE </h2>
@@ -141,7 +141,7 @@ class Home extends React.Component {
         </div>
 
         <Carousel>
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={4000}>
         <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
         <div className="secondlast">
           <div className="row">
@@ -164,7 +164,7 @@ class Home extends React.Component {
         </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={4000}>
         <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
         <div className="secondlast">
           <div className="row">
@@ -187,7 +187,7 @@ class Home extends React.Component {
         </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={4000}>
         <Animated  animationIn="bounceInRight"><p className="p">Good food is very often ,even most often,SIMPLE FOOD</p><br /></Animated>
         <div className="secondlast">
           <div className="row">
@@ -211,6 +211,21 @@ class Home extends React.Component {
         </Carousel.Item>
 
         </Carousel>
+
+
+
+
+
+        <div className="twitter">
+        <a className="twitter-timeline" 
+        href="https://twitter.com/ZardaCafe254?ref_src=twsrc%5Etfw">
+          Tweets by ZardaCafe254</a> 
+          <script async src="https://platform.twitter.com/widgets.js" 
+          charset="utf-8">
+          </script>
+        </div>
+
+        
         
   
   {/*foter*/}

@@ -70,51 +70,6 @@ class Location extends React.Component {
             </MDBNavbar>
           </Router>
           </div>
-
-
-
-          <Carousel>
-          
-
-          <Carousel.Item interval={3000}>
-          <MDBView src="../Images/beef.jpg">
-            <MDBMask overlay="blue-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="bounceInRight">
-              <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
-              </h5></Animated>
-            </MDBMask>
-          </MDBView></Carousel.Item>
-          
-          <Carousel.Item interval={3000}>
-          <MDBView src="../Images/fish.jpg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="bounceInRight">
-              <h2 className="head1" style={{fontSize:'70px'}}>ZARDA CAFE</h2>
-              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 className="head5" style={{overflowY:'hidden'}}>BON .appetit.,
-              </h5></Animated>
-            </MDBMask>
-          </MDBView></Carousel.Item>
-
-          <Carousel.Item interval={3000}>
-          <MDBView src="../Images/bhajia.jpg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="bounceInRight">
-              <h2 className="head1" style={{fontSize:'70px'}} >ZARDA CAFE </h2>
-              <h2 className="head2" style={{fontSize:'70'}}>YOUR SWAHILI DELIGHT</h2></Animated>
-              <Animated animationIn="bounceInLeft">
-              <h5 className="head5"  style={{overflowY:'hidden'}}>BON .appetit.,
-              </h5></Animated>
-            </MDBMask>
-          </MDBView></Carousel.Item>
-
-         
-          
-          </Carousel>
         </header>
        
 
